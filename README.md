@@ -14,7 +14,7 @@ Les Open Data Days, organisés à l'approche de la [journée internationale de l
 
 Des ateliers de formation technique ainsi que des ateliers thématiques vous seront proposés. L'évènement se terminera par une session de présentation des porteurs de projets accompagnés lors de la première phase du projet européen Odeon et par le lancement du Meetup Open Data Aix Marseille.
 
-## **A qui ça s'adresse ?**
+## A qui ça s'adresse ?
 
 -   **Porteurs de projet** : venez découvrir comment booster vos projets avec des données
 -   **Spécialistes des données **: venez vous mettre à jour sur les derniers usages des données ouvertes
@@ -29,9 +29,9 @@ Des ateliers de formation technique ainsi que des ateliers thématiques vous ser
 Au fait, qu'est-ce qu'une donnée ? Qu'est ce qu'une donnée quantitative / qualitative / structurée / non-structurée / capturée / crowdsourcée ? Qu'entend-on par big, open ou linked data ? En quoi la data science diffère de la statistique ? Quelle est la différence entre machine et deep learning ? Dans cet atelier, nous vous introduirons toutes ces notions et vous aiderons à mieux les approprier. 
 
 ### 14h-17h30, atelier de formation : Les essentiels de l'ouverture des données
-**D'où vient l'open data ? Quels en sont les grands principes ? Quel est le cadre juridique de l'open data en France ? Quelles sont les bases de données emblématiques disponibles sur data.gouv.fr ? Quelles sont les principales difficultés rencontrées par les réutilisateurs ? Comment ouvrir des données dans une administration publique ? Dans cet atelier, nous vous aiderons à mieux comprendre l'ouverture des données publiques et à ouvrir de nouvelles données.
+D'où vient l'open data ? Quels en sont les grands principes ? Quel est le cadre juridique de l'open data en France ? Quelles sont les bases de données emblématiques disponibles sur data.gouv.fr ? Quelles sont les principales difficultés rencontrées par les réutilisateurs ? Comment ouvrir des données dans une administration publique ? Dans cet atelier, nous vous aiderons à mieux comprendre l'ouverture des données publiques et à ouvrir de nouvelles données.
 
-## **Jeudi 5 mars : les mains dans le cambouis**
+## Jeudi 5 mars : les mains dans le cambouis
 
 🎯Objectif : Quelque soit votre expérience préalable, découvrez comment exploiter et visualiser des données.
 
@@ -41,7 +41,7 @@ Le data pipeline est une méthodologie générique de réutilisation des donnée
 ### 14h-17h30 : Formats, outils et bonnes pratiques de la visualisation de données
 Après avoir découvert le chemin de la réutilisation des données, nous nous arrêterons sur l'étape de la visualisation des données. A travers de nombreux exemples, nous verrons d'abord les trois grandes qualités d'une visualisation réussie : rigueur, lisibilité, éloquence. Ensuite, nous verrons comment choisir un format de visualisation adapté au message que vous souhaitez passer et trouver le bon outil pour la réaliser. Quelques exercices vous familiariseront avec certains des meilleurs outils de visualisation. 
 
-## **Vendredi 6 mars : des données pour de l'impact**
+## Vendredi 6 mars : des données pour de l'impact
 
 🎯Objectif : structurez vos projets et venez découvrir des cas d'usage où la donnée a démultiplié l'impact de projets.
 
@@ -49,13 +49,13 @@ Après avoir découvert le chemin de la réutilisation des données, nous nous a
 
 Dans cet atelier de formation, Sébastien Touchais de [Servebox](http://servebox.com) présentera un aperçu des modalités de financement aux différents stades d'un projet entrepreneurial (idée, lancement, développement, croissance, maturité) et les grandes familles d'investissement (crowdfunding, venture capital, business angel...) Afin d'accompagner les porteurs de projet réutilisant des données, un focus sera réalisé sur les financements non dilutifs pour commencer son activité et sur les moyens de tester son idée avant de se lancer en quête de financement. Cet atelier sera suivi d'une préparation et d'un entrainement aux pitchs pour les porteurs de projet qui le souhaitent. 
 
-### 14h --- 17h30 : Rencontre entre producteurs et réutilisateurs de données
+### 14h - 17h30 : Rencontre entre producteurs et réutilisateurs de données
 
 Cette rencontre animée par Charles Nepote (ex FING, Open Food Facts) prendra la forme d'une série de témoignages de producteurs et de réutilisateurs de données afin d'engager un dialogue sur la manière d'accroitre l'impact de l'ouverture des données. 
 
 *Liste des intervenants annoncée très prochainement.*
 
-### 18h30--21h30 : lancement du meetup open data Aix-Marseille
+### 18h30-21h30 : lancement du meetup open data Aix-Marseille
 
 Les Open Data Days se termineront par le lancement du meetup Open Data Aix-Marseille, un événement régulier de rencontre entre producteurs et réutilisateurs de l'open data. L'évènement débutera par une intervention de Joël Gombin, co-fondateur de Datactivist intitulée "*Où en est l'open data ? Etat des lieux et découverte de 10 projets à fort impact*" qui présentera la nouvelle donne de la loi pour une République Numérique, des données emblématiques et 10 exemples de choses incroyables qui n'existeraient pas sans l'open data. 
 
