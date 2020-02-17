@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "fr-FR" }}">
+  <head>
+    <meta charset="UTF-8">
+
+{% seo %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">🎂Datanniversaire</h1>
+      <h1 class="project-tagline">L’open data a 10 ans, comment en faire la norme plutôt que l’exception ?</h2>
+      <h3>📆7/12/2017  🕡18H  📍  Superpublic (4 Rue la Vacquerie, Paris 11)</a></h3>
+
+        <a href="https://datactivist.typeform.com/to/Twz37e" class="btn">S'inscrire</a>
+
+    </section>
+
+    <section class="main-content">
+      {{ content }}
+									
+    <footer class="site-footer">
+	    <p style="font-weight:bold"> Qui sommes nous ?</p>
+	    <p><a href="www.datactivi.st">Datactivist </a> est une société coopérative et participative (SCOP) créée en novembre 2016 qui se donne pour mission d’ouvrir les données et de les rendre utiles et utilisées. Datactivist agit à travers trois grands types de missions : conseil (accompagnement dans l’ouverture de données et l’utilisation de données ouvertes), formation (open data, culture générale des données, data science) et médiation (accompagnenement de la réutilisation par un public de spécialistes ou de novices).</p>
+	<p><a href="http://www.la27eregion.fr/">La 27e région </a> conduit des programmes de « recherche-action » visant à tester de nouvelles méthodes d’innovation avec les acteurs publics. Elle fait le pari de la pluridisciplinarité en mobilisant des compétences issues du design et de la conception créative, des sciences sociales (ethnographie, sociologie de terrain, observation participante) ou encore des pratiques amateurs (do-it-yourself, éducation populaire, etc.). Le point commun de ces approches est qu’elles privilégient l’expérience vécue par les utilisateurs, agents et citoyens, comme un point de départ pour réinterroger les politiques publiques.</p>
+      </footer>
+    </section>
+
+    {% if site.google_analytics %}
+      <script type="text/javascript">
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', '{{ site.google_analytics }}', 'auto');
+        ga('send', 'pageview');
+      </script>
+    {% endif %}
+  </body>
+</html>
