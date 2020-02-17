@@ -8,20 +8,20 @@ Après cette première phase qui a permis de faire émerger sept projets dans le
 
 Dans ce cadre, nous vous invitions à un temps fort qui s'inscrit dans la journée internationale de l'open data : les Open Data Days.
 
-### Au programme des Open Data Days
+# Au programme des Open Data Days
 
 Les Open Data Days, organisés à l'approche de la [journée internationale de l'Open Data](https://opendataday.org/#what) (7 mars), ont pour objectif de sensibiliser aux différents usages des données ouvertes, de former à leur exploitation, et de permettre la rencontre entre producteurs et réutilisateurs de données.
 
 Des ateliers de formation technique ainsi que des ateliers thématiques vous seront proposés. L'évènement se terminera par une session de présentation des porteurs de projets accompagnés lors de la première phase du projet européen Odeon et par le lancement du Meetup Open Data Aix Marseille.
 
-#### **A qui ça s'adresse ?**
+## **A qui ça s'adresse ?**
 
 -   **Porteurs de projet** : venez découvrir comment booster vos projets avec des données
 -   **Spécialistes des données **: venez vous mettre à jour sur les derniers usages des données ouvertes
 -   **Acteurs publics** : venez renforcer votre culture des données et apprendre comment créer de l'impact en ouvrant des données
 -   **Curieux** : venez découvrir les nouvelles perspectives offertes par l'ouverture des données publiques quelque soit votre expérience avec la data
 
-#### Mercredi 4 mars : les essentiels de la data
+## Mercredi 4 mars : les essentiels de la data
 
 🎯Objectif : S'acculturer aux données, à leur exploitation et à leur ouverture
 
@@ -31,7 +31,7 @@ Au fait, qu'est-ce qu'une donnée ? Qu'est ce qu'une donnée quantitative / qua
 → **14h-17h30, atelier de formation : Les essentiels de l'ouverture des données\
 **D'où vient l'open data ? Quels en sont les grands principes ? Quel est le cadre juridique de l'open data en France ? Quelles sont les bases de données emblématiques disponibles sur data.gouv.fr ? Quelles sont les principales difficultés rencontrées par les réutilisateurs ? Comment ouvrir des données dans une administration publique ? Dans cet atelier, nous vous aiderons à mieux comprendre l'ouverture des données publiques et à ouvrir de nouvelles données.
 
-#### **Jeudi 5 mars : les mains dans le cambouis**
+## **Jeudi 5 mars : les mains dans le cambouis**
 
 🎯Objectif : Quelque soit votre expérience préalable, découvrez comment exploiter et visualiser des données.
 
@@ -41,7 +41,7 @@ Au fait, qu'est-ce qu'une donnée ? Qu'est ce qu'une donnée quantitative / qua
 ** → 14h-17h30 : Formats, outils et bonnes pratiques de la visualisation de données\
 **Après avoir découvert le chemin de la réutilisation des données, nous nous arrêterons sur l'étape de la visualisation des données. A travers de nombreux exemples, nous verrons d'abord les trois grandes qualités d'une visualisation réussie : rigueur, lisibilité, éloquence. Ensuite, nous verrons comment choisir un format de visualisation adapté au message que vous souhaitez passer et trouver le bon outil pour la réaliser. Quelques exercices vous familiariseront avec certains des meilleurs outils de visualisation. 
 
-#### **Vendredi 6 mars : des données pour de l'impact**
+## **Vendredi 6 mars : des données pour de l'impact**
 
 🎯Objectif : structurez vos projets et venez découvrir des cas d'usage où la donnée a démultiplié l'impact de projets.
 
@@ -71,7 +71,7 @@ Le meetup continuera par une présentation des 7 projets réutilisant des donné
 
 Enfin, pour finir, les Open Data Days se termineront par un cocktail dinatoire.🥂
 
-### Inscrivez vous ! 
+# Inscrivez vous ! 
 
 Évènement gratuit et ouvert à tous, sur inscription. 
 
