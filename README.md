@@ -25,21 +25,21 @@ Des ateliers de formation technique ainsi que des ateliers thématiques vous ser
 
 🎯Objectif : S'acculturer aux données, à leur exploitation et à leur ouverture
 
-**→ 9h30 -- 12h30, atelier de formation : Data literacy, développez votre culture générale des données.**\
+→ ** 9h30 -- 12h30, atelier de formation : Data literacy, développez votre culture générale des données**
 Au fait, qu'est-ce qu'une donnée ? Qu'est ce qu'une donnée quantitative / qualitative / structurée / non-structurée / capturée / crowdsourcée ? Qu'entend-on par big, open ou linked data ? En quoi la data science diffère de la statistique ? Quelle est la différence entre machine et deep learning ? Dans cet atelier, nous vous introduirons toutes ces notions et vous aiderons à mieux les approprier. 
 
-→ **14h-17h30, atelier de formation : Les essentiels de l'ouverture des données\
+→ **14h-17h30, atelier de formation : Les essentiels de l'ouverture des données**
 **D'où vient l'open data ? Quels en sont les grands principes ? Quel est le cadre juridique de l'open data en France ? Quelles sont les bases de données emblématiques disponibles sur data.gouv.fr ? Quelles sont les principales difficultés rencontrées par les réutilisateurs ? Comment ouvrir des données dans une administration publique ? Dans cet atelier, nous vous aiderons à mieux comprendre l'ouverture des données publiques et à ouvrir de nouvelles données.
 
 ## **Jeudi 5 mars : les mains dans le cambouis**
 
 🎯Objectif : Quelque soit votre expérience préalable, découvrez comment exploiter et visualiser des données.
 
-** → 9h30--12h30, atelier de formation technique : le data pipeline, passer à travers les embûches de la réutilisation\
-**Le data pipeline est une méthodologie générique de réutilisation des données développée au sein du réseau international [School of Data](https://schoolofdata.org/). En sept étapes, cette méthodologie vous guidera à travers les embûches que vous pourrez rencontrer sur le chemin de la réutilisation des données. Au terme de cet atelier pratique s'adressant à tous les profils, vous aurez découvert des outils et des bonnes pratiques pour identifier les données dont vous avez besoin, les récupérer (portail open data, scraping, API, demande CADA...), les vérifier, les nettoyer, les analyser et enfin présenter les résultats. 
+** → 9h30--12h30, atelier de formation technique : le data pipeline, passer à travers les embûches de la réutilisation**
+Le data pipeline est une méthodologie générique de réutilisation des données développée au sein du réseau international [School of Data](https://schoolofdata.org/). En sept étapes, cette méthodologie vous guidera à travers les embûches que vous pourrez rencontrer sur le chemin de la réutilisation des données. Au terme de cet atelier pratique s'adressant à tous les profils, vous aurez découvert des outils et des bonnes pratiques pour identifier les données dont vous avez besoin, les récupérer (portail open data, scraping, API, demande CADA...), les vérifier, les nettoyer, les analyser et enfin présenter les résultats. 
 
-** → 14h-17h30 : Formats, outils et bonnes pratiques de la visualisation de données\
-**Après avoir découvert le chemin de la réutilisation des données, nous nous arrêterons sur l'étape de la visualisation des données. A travers de nombreux exemples, nous verrons d'abord les trois grandes qualités d'une visualisation réussie : rigueur, lisibilité, éloquence. Ensuite, nous verrons comment choisir un format de visualisation adapté au message que vous souhaitez passer et trouver le bon outil pour la réaliser. Quelques exercices vous familiariseront avec certains des meilleurs outils de visualisation. 
+** → 14h-17h30 : Formats, outils et bonnes pratiques de la visualisation de données**
+Après avoir découvert le chemin de la réutilisation des données, nous nous arrêterons sur l'étape de la visualisation des données. A travers de nombreux exemples, nous verrons d'abord les trois grandes qualités d'une visualisation réussie : rigueur, lisibilité, éloquence. Ensuite, nous verrons comment choisir un format de visualisation adapté au message que vous souhaitez passer et trouver le bon outil pour la réaliser. Quelques exercices vous familiariseront avec certains des meilleurs outils de visualisation. 
 
 ## **Vendredi 6 mars : des données pour de l'impact**
 
