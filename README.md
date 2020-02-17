@@ -17,7 +17,7 @@ Des ateliers de formation technique ainsi que des ateliers thématiques vous ser
 ## A qui ça s'adresse ?
 
 -   **Porteurs de projet** : venez découvrir comment booster vos projets avec des données
--   **Spécialistes des données **: venez vous mettre à jour sur les derniers usages des données ouvertes
+-   **Spécialistes des données**: venez vous mettre à jour sur les derniers usages des données ouvertes
 -   **Acteurs publics** : venez renforcer votre culture des données et apprendre comment créer de l'impact en ouvrant des données
 -   **Curieux** : venez découvrir les nouvelles perspectives offertes par l'ouverture des données publiques quelque soit votre expérience avec la data
 
