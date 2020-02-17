@@ -78,4 +78,5 @@ Enfin, pour finir, les Open Data Days se termineront par un cocktail dinatoire.�
 Lieu : World Trade Center, 2 Rue Henri Barbusse, 13001 Marseille
 
 Pour vous inscrire, merci de remplir le formulaire à la suite en indiquant les séquences auxquelles vous souhaitez participer :
-<script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shrrM4CQkIkU8VARA?backgroundColor=gray" frameborder="0" onmousewheel="" width="100%" height="2154.005682" style="background: transparent; border: 1px solid #ccc;"></iframe>
+
+<iframe><script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shrrM4CQkIkU8VARA?backgroundColor=gray" frameborder="0" onmousewheel="" width="100%" height="2154.005682" style="background: transparent; border: 1px solid #ccc;"></iframe>
