@@ -1,4 +1,4 @@
-[Les ateliers "Dat'accélère"](https://medium.com/datactivist/datacc%C3%A9l%C3%A8re-des-ateliers-et-une-m%C3%A9thodologie-pour-booster-les-projets-avec-les-donn%C3%A9es-9b40776891a4) organisés de septembre à décembre 2019 à Marseille avec l'Agence des villes et territoires méditerranéens durables ([Avitem](http://l'Agence%20des%20villes%20et%20territoires%20méditerranéens%20durables%20%28AVITEM%29%20et%20Charles%20Népote,)) et Charles Népote visaient à aider des porteurs de projet à cerner le potentiel data de leur projet, favoriser la rencontre entre porteurs de projets et producteurs de données et faire émerger des projets emblématiques qui seront accompagnés en profondeur par la suite. Pour cela, nous nous sommes appuyés sur le [parcours d'évaluation du potentiel data](https://infolabs.io/pes) élaboré par la FING dans le cadre de la campagne Infolab et largement enrichi par Simon Chignard. 
+[Les ateliers "Dat'accélère"](https://medium.com/datactivist/datacc%C3%A9l%C3%A8re-des-ateliers-et-une-m%C3%A9thodologie-pour-booster-les-projets-avec-les-donn%C3%A9es-9b40776891a4) organisés avec l'Agence des villes et territoires méditerranéens durables ([Avitem](avitem.org)) et Charles Népote visaient à aider des porteurs de projet à cerner le potentiel data de leur projet, favoriser la rencontre entre porteurs de projets et producteurs de données et faire émerger des projets emblématiques qui seront accompagnés en profondeur par la suite. Pour cela, nous nous sommes appuyés sur le [parcours d'évaluation du potentiel data](https://infolabs.io/pes) élaboré par la FING dans le cadre de la campagne Infolab et largement enrichi par Simon Chignard. 
 
 Après cette première phase qui a permis de faire émerger sept projets dans les trois thématiques du projet Odéon (économies "verte" et "bleue", industries créatives) et de constituer une communauté d'acteurs mobilisée, les ateliers Dat'accélère dans le cadre du projet européen ODEON se poursuivent afin de :
 
@@ -19,7 +19,7 @@ Des ateliers de formation technique ainsi que des ateliers thématiques vous ser
 -   **Porteurs de projet** : venez découvrir comment booster vos projets avec des données
 -   **Spécialistes des données**: venez vous mettre à jour sur les derniers usages des données ouvertes
 -   **Acteurs publics** : venez renforcer votre culture des données et apprendre comment créer de l'impact en ouvrant des données
--   **Curieux** : venez découvrir les nouvelles perspectives offertes par l'ouverture des données publiques quelque soit votre expérience avec la data
+-   **Curieux** : venez découvrir les nouvelles perspectives offertes par l'ouverture des données publiques quelle que soit votre expérience avec la data
 
 ## Mercredi 4 mars : les essentiels de la data
 
