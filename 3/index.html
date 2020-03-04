@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>Le data pipeline</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Samuel Goëta, Datactivist" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/datactivist.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/datactivist-fonts.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, orientation=auto"/>
+    <meta name="description" content="Open Data Days"/>
+    <meta name="github-repo" content="datactivist/opendatadays/3/"/>
+    <meta name="twitter:title" content="Data Pipeline"/>
+    <meta name="twitter:description" content="Open Data Days"/>
+    <meta name="twitter:url" content="https://datactivist.coop/opendatadays/3//1"/>
+    <meta name="twitter:image:src" content="https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/logo.png"/>
+    <meta name="twitter:image:alt" content="le logo de Datactivist"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:creator" content="@datactivi_st"/>
+    <meta name="twitter:site" content="@datactivi_st"/>
+    <meta name="og:title" content="Data Pipeline"/>
+    <meta name="og:description" content="Open Data Days"/>
+    <meta name="og:url" content="https://datactivist.coop/opendatadays/3//1"/>
+    <meta name="og:image" content="https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/logo.png"/>
+    <meta name="og:image:alt" content="le logo de Datactivist"/>
+    <meta name="og:type" content="website"/>
+    <meta name="og:locale" content="fr_FR"/>
+    <meta name="og:site_name" content="Datactivist"/>
+    <meta name="article:author" content="Datactivist"/>
+    <link href="libs/countdown-0.3.5/countdown.css" rel="stylesheet" />
+    <script src="libs/countdown-0.3.5/countdown.js"></script>
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Le data pipeline
+## Passer à travers les embûches de la réutilisation
+### Samuel Goëta, Datactivist
+### 5 Mars 2020
+
+---
+
+
+
+
+
+layout: true
+
+&lt;style&gt;
+.remark-slide-number {
+  position: inherit;
+}
+
+.remark-slide-number .progress-bar-container {
+  position: absolute;
+  bottom: 0;
+  height: 4px;
+  display: block;
+  left: 0;
+  right: 0;
+}
+
+.remark-slide-number .progress-bar {
+  height: 100%;
+  background-color: #e95459;
+}
+
+&lt;/style&gt;
+  
+
+&lt;div class='my-footer'&gt;&lt;span&gt;Open Data Days&lt;/span&gt; &lt;center&gt;&lt;div class=logo&gt;&lt;img src='https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/fond_noir_monochrome.png' width='100px'&gt;&lt;/center&gt;&lt;/span&gt;&lt;/div&gt; 
+
+---
+
+class: center, middle
+
+Ces slides en ligne : http://datactivist.coop/opendatadays/3//1
+
+Sources : https://github.com/datactivist/opendatadays/3/
+
+
+Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+&lt;BR&gt;
+&lt;BR&gt;
+
+![](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)
+
+
+---
+### Qui sommes-nous ?
+
+&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;
+
+[![](https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/logo.png)](https://datactivist.coop)
+
+### We .red[open data], we make them .red[useful]
+
+---
+### Qui sommes-nous ?
+
+
+![](../1/img/team2.png)
+
+---
+### Qui sommes-nous ?
+
+- Datactivist est un .red[**pure player de l’open data**] créé en 2016, par Samuel Goëta et Joël Gombin.
+
+- Se positionnant sur .red[**toutes les étapes du travail d’ouverture des données**], Datactivist travaille tant avec les producteurs de données qu’avec les réutilisateurs et participe à l’appropriation des données par chacun.
+
+- Nous appliquons nos propres .red[**valeurs**] : nous sommes une coopérative ; nos supports de formation et nos contenus sont librement réutilisables, publiés en licence Creative Commons.
+
+- Une approche issue de la recherche : voir notamment **https://datactivist.coop/these**. 
+
+- Nous animons la communauté [#TeamOpenData](https://teamopendata.org).
+
+---
+### Nos activités
+
+- Conseil sur les .red[**stratégies d’ouverture de données**] : nous aidons les organisations dans la conception et la mise en œuvre de leur stratégie d’ouverture de données.
+
+
+- .red[**Accompagnement dans la réutilisation de données ouvertes**] : nous aidons les organisations à utiliser les données au quotidien. 
+
+- .red[**Sensibilisation et formation à la donnée**] : nous formons à la culture générale des données, nous enseignons les grands principes et bonnes pratiques de l'open data et nous introduisons à la data science. 
+
+- .red[**Médiation de données**] : nous organisons des hackathons, des open data camps, des expéditions de données...
+
+???
+
+La médiation de données est aussi fondamentalement une animation de communauté(s). 
+
+---
+
+### Réutiliser les données : un parcours fait de joies et de déceptions
+
+.center.reduite[
+![](./img/data batman.png)
+]
+
+---
+
+### Définir
+
+.pull-left[
+.reduite[![](./img/Data_pipeline_FR_transparent.png)]
+]
+.pull-right[
+
+#### Définir précisément votre problème
+
+#### Que cherchez vous à comprendre ?
+
+#### Quelles données vous seraient utiles ?
+
+]
+
+---
+
+### Définir, c'est trouver un angle à votre sujet
+
+![](./img/expe.png)
+.footnote[[](https://fr.okfn.org/2014/07/03/a-la-conquete-des-donnees-sur-la-pollution-de-lair/)]
+
+---
+
+### La Wanted Data List pour définir ses besoins de données
+
+&lt;iframe class="airtable-embed" src="https://airtable.com/embed/shrZA0sl2dVmHmAjJ?backgroundColor=cyan&amp;layout=card&amp;viewControls=on" frameborder="0" onmousewheel="" width="100%" height="450" style="background: transparent; border: 1px solid #ccc;"&gt;&lt;/iframe&gt;
+
+---
+
+### Exercice en groupe
+
+0. Constituez des groupes autour d'une thématique : la gastronomie, le Tour de France, le rock, la pollution des rivières, la propagation des virus…
+
+1. Trouvez 2-3 angles pour vos analyses
+
+2. Commencez une wanted data list pour définir vos besoins de données
+
+.red[Vous avez 7 minutes]
+
+
+<div class="countdown" id="timer_5e6040a5" style="right:0;bottom:0;" data-audio="true" data-warnwhen="0">
+<code class="countdown-time"><span class="countdown-digits minutes">07</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+</div>
+
+---
+
+### Trouver
+
+.pull-left[
+.reduite[![](./img/Data_pipeline_FR_transparent.png)]
+]
+.pull-right[
+
+#### Utiliser les opérateurs spéciaux
+
+#### Chercher sur les portails open data
+
+#### Utiliser les facettes pour trouver les bonnes données
+
+#### Extraire des données d'OpenStreetMap
+
+#### S'appuyer sur des ressources de [curation de données](https://teamopendata.org/t/curation-de-donnees-data-is-plural/734)
+]
+
+---
+### Utiliser les opérateurs spéciaux
+
+Exemple avec la requête "site:education.gouv.fr filetype:xlsx" :
+![](./img/filetype.gif)
+
+---
+
+### Utiliser les facettes pour trouver les bonnes données
+
+.pull-left[
+![](./img/facettes.png)
+]
+
+.pull-right[
+Les facettes sont des filtres dans les métadonnées. 
+
+Elles permettent de sélectionner par exemple uniquement un certain producteur. 
+
+Cela peut faire gagner beaucoup de temps dans une recherche de données.
+]
+---
+### Utiliser les facettes pour trouver les bonnes données
+
+![](./img/ECOLE.png)
+.pull-left[
+Sans filtre par facette, à la requête écoles, on a des résultats étonnants en première page comme ces données de la FEMIS.  
+]
+
+.pull-right[
+En gardant uniquement "Education Nationale"" dans la facette organisation, on s'assure de trouver des données nationales. 
+]
+---
+### Utiliser Google Dataset Search
+
+Google propose depuis quelques temps ce [moteur de recherche](https://toolbox.google.com/datasetsearch) aggrégant de très nombreux portails open data. Les résultats sont inégaux mais le moteur est encore nouveau…
+
+[![](./img/datasetsearch.png)](https://toolbox.google.com/datasetsearch)
+
+---
+### Chercher dans le [réseau de données OpenDataSoft](data.opendatasoft.com)
+OpenDataSoft référence tous les jeux de données publiés sur l'ensemble de ses portails. Parmi eux, le portail Public référence des jeux de données introuvables ailleurs comme la [localisation des radars](https://data.opendatasoft.com/explore/dataset/radars%40public/table/). 
+![](./img/dataods.png)
+---
+### Trouver le bon tag sur OSM
+La page "[Elements Cartographiques](https://wiki.openstreetmap.org/wiki/FR:%C3%89l%C3%A9ments_cartographiques)" sur le wiki d'OSM recense tous les tags utilisés dans la base de données. 
+
+[![](./img/mapfeatures.png)](https://wiki.openstreetmap.org/wiki/FR:%C3%89l%C3%A9ments_cartographiques)
+.footnote[Plus d'infos : https://datactivist.coop/atelier-osm/]
+
+---
+### Utiliser des [ressources de curation de données](https://teamopendata.org/t/curation-de-donnees-data-is-plural/734)
+
+Je recense sur [TeamOpenData](https://teamopendata.org/t/curation-de-donnees-data-is-plural/734) les meilleures ressources de curation de données. Une recherche vous aidera à trouver des données internationales que vous ne trouverez généralement pas autrement. 
+
+Par exemple, l'excellente [newsletter Data Is Plural](https://tinyletter.com/data-is-plural/) propose chaque semaine une présentation des meilleurs jeux de données qui sont archivés dans une [feuille de calcul](https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0).
+
+[![](./img/dataisplural.png)](https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0)
+
+---
+
+### Exercice en groupe
+
+1. Reconstituez vos groupes
+
+2. A partir de la wanted data list, cherchez des données en utilisant les techniques et conseils évoqués précédemment : 
+* Recherche sur les portails open data
+* Recherche Google
+* Google Dataset Search
+* Curation de données
+* OSM
+
+.red[Vous avez 10 minutes]
+
+
+<div class="countdown" id="timer_5e603f70" style="right:0;bottom:0;" data-audio="true" data-warnwhen="0">
+<code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+</div>
+
+---
+
+### Récupérer 
+
+.pull-left[
+.reduite[![](./img/Data_pipeline_FR_transparent.png)]
+]
+.pull-right[
+
+- #### Téléchargement direct
+
+- #### API ou web service
+
+- #### Scrapping de données
+
+- #### Copier / coller
+
+- #### Extraction (OpenStreetMap)
+
+
+]
+
+---
+
+### Scrapping de données : quelques outils
+
+[import.io](import.io) est un excellent outil qui facilite grandement l'extraction des données depuis un site web. L'outil détecte automatiquement la structure des données sur le site. 
+
+![](http://andrewbtran.github.io/JRN-418/class7/import3.png)
+.footnote[Loïc Haÿ a développé un [tutoriel](https://www.dropbox.com/s/yarrneyseghd7d6/05-%20Extraire%20des%20donn%C3%A9es%20%C3%A0%20partir%20de%20pages%20web.pdf?dl=0) pour utiliser import.io.]
+
+---
+### Scrapping de données : quelques outils
+
+L'extension [Scraper](https://chrome.google.com/webstore/detail/scraper/mbigbapnjcgaffohmbkdlecaccepngjd?hl=fr) pour Chrome permet d'extraire en quelques clics les données d'un site. 
+
+![](./img/scrap.gif)
+
+---
+
+### Scrapping de données : quelques outils
+
+L'extension Webscraper permet de capturer des données sur des sites avec une arborescence complexe. 
+
+.red[
+** Démonstration avec ce site qui référence la plupart des [escape games en France](https://www.escapegame.fr/france/)**
+]
+
+![](img/escape.png)
+
+---
+### Extraire des données d'OpenStreetMap
+
+[Overpass-Turbo](overpass-turbo.eu) permet d'extraire des éléments spécifiques dans la base de données OpenStreetMap. Exemple ici avec les écoles dans l'Yonne : 
+
+![](./img/overpass.gif)
+.footnote[Plus d'infos : https://datactivist.coop/atelier-osm/]
+---
+### Découverte d’Overpass
+.reduite[![](https://datactivist.coop/atelier-osm/img/overpass.png)]
+.footnote[http://overpass-turbo.eu]
+
+---
+### Exercice : cartographier les éléments suivants
+
+* Les boulangeries à Angers
+
+* Les pistes cyclables à Auxerre
+
+* Les aéroports en Bourgogne
+
+* Les boites aux lettres à Aix en Provence 
+
+**Plus dur :**
+
+* Les lignes électriques en corse
+
+* Les « potelets » à Marseille
+
+---
+
+### Vérifier 
+
+.pull-left[
+.reduite[![](./img/Data_pipeline_FR_transparent.png)]
+]
+
+.pull-right[
+
+- #### Bon sens
+
+- #### Demander à la source
+
+- #### S'appuyer sur des communautés d’experts
+
+- #### Statistiques
+
+
+]
+
+---
+### S'appuyer sur les commentaires dans data.gouv.fr
+
+data.gouv.fr permet aux usagers de discuter autour des données, cela vous aidera à détecter les problèmes avec les données. 
+
+[![](./img/rne.gif)](https://www.data.gouv.fr/fr/datasets/donnees-du-repertoire-national-des-elus/)
+
+---
+
+### WTFCsv pour faire un contrôle rapide des données
+
+[WTFCSV](https://www.databasic.io/en/wtfcsv/) est un outil de médiation de données qui propose un aperçu de vos fichiers CSV. 
+
+[![](./img/wtfcsv.png)](https://www.databasic.io/en/wtfcsv/results/5b73338c9dfb0a00e15f07ff#tooltip)
+
+---
+
+### Nettoyer 
+
+.pull-left[
+.reduite[![](./img/Data_pipeline_FR_transparent.png)]
+]
+.pull-right[
+
+- #### Toilettage
+
+- #### Edition
+
+- #### Consolidation
+
+- #### Erreurs fréquentes
+* Format pour les dates
+* Les doublons
+* Les fautes d’orthographe
+
+]
+
+---
+### Open Refine pour nettoyer les données
+
+[OpenRefine](http://openrefine.org/) est un outil puissant pour explorer, transformer et rapprocher des données. 
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/cO8NVCs_Ba0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+.footnote[Mathieu Saby a publié un [tutoriel complet](https://msaby.gitlab.io/atelier-openrefine-MASA/).]
+
+---
+### Le [sprint qualité](https://infolabs.io/sprint-qualite) pour détecter les problèmes dans les données
+
+[![](./img/sprint.png)](https://infolabs.io/sprint-qualite)
+
+---
+### Le [Quartz Bad Data Guide](https://infolabs.io/sprint-qualite) : un résumé des problèmes avec les données
+
+[![](./img/quartz.gif)](https://github.com/Quartz/bad-data-guide)
+
+---
+
+### Un exercice de nettoyage de données
+
+Workbench est un outil puissant et simple à utiliser pour nettoyer des données. Il propose des tutoriels et des recettes simples d'utilisation. Essayez cette [recette de nettoyage de données](https://app.workbenchdata.com/lessons/en/load-public-data).
+
+![](img/workbench.png)
+
+
+<div class="countdown" id="timer_5e6041d6" style="right:0;bottom:0;" data-audio="true" data-warnwhen="0">
+<code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+</div>
+
+---
+
+### Analyser 
+
+.pull-left[
+.reduite[![](./img/Data_pipeline_FR_transparent.png)]
+]
+.pull-right[
+
+#### Type d’analyse
+- Analyse statistique
+- Analyse spatiale
+
+#### Outils
+
+- Tableur
+- R
+- QGIS (données géo)
+- Etc.
+
+]
+
+---
+
+### Présenter
+
+.pull-left[
+.reduite[![](./img/Data_pipeline_FR_transparent.png)]
+]
+
+.pull-right[
+
+### Communiquer les résultats de votre analyse au public.
+
+Flourish
+https://flourish.studio/
+
+Datawrapper
+https://www.datawrapper.de/
+
+Infogram
+https://infogram.com/
+
+DIVE
+https://dive.media.mit.edu/
+
+.footnote[Voir atelier cet après midi sur la visualisation de données]
+]
+
+---
+### Pour terminer, testez vos compétences data
+
+![](img/pix.png)
+
+---
+class: inverse, center, middle
+
+# Merci !
+
+Contact : [samuel@datactivist.coop](mailto:samuel@datactivist.coop)
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="macros.js"></script>
+<script src="matomo.js"></script>
+<script src="https://platform.twitter.com/widgets.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"slideNumberFormat": "<div class=\"progress-bar-container\">   <div class=\"progress-bar\" style=\"width: calc(%current% / %total% * 100%);\">   </div> </div> "
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
