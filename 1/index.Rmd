@@ -35,7 +35,7 @@ meta() %>%
   meta_viewport() %>% 
   meta_social(
     title = params$title,
-    url = paste0("https://datactivist.coop/", params$slug, "/2"),
+    url = paste0("https://datactivist.coop/", params$slug, "/1"),
     image = params$image,
     image_alt = params$image_alt,
     og_type = "website",
@@ -78,7 +78,7 @@ layout: true
 
 class: center, middle
 
-Ces slides en ligne : `r paste0("http://datactivist.coop/", params$slug, "/2")`
+Ces slides en ligne : `r paste0("http://datactivist.coop/", params$slug, "/1")`
 
 Sources : `r paste0("https://github.com/datactivist/", params$slug)`
 
