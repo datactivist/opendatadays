@@ -335,7 +335,12 @@ Class: middle, center
 - La question devient peut-être, *quels aspects de votre vie ne sont pas (encore) mis en données ?*
 
 ---
-## Le nouveau positivisme des données
+### Exemple : les données de bornage des téléphones
+
+[![](img/phonenyt.gif)](https://www.nytimes.com/interactive/2019/12/19/opinion/location-tracking-cell-phone.html)
+
+---
+### Le nouveau positivisme des données
 
 > Si vous me demandiez de décrire la philosophie naissante du jour, je dirais que c’est du **data-isme**. Nous sommes maintenant en mesure de collecter d'énormes quantités de données. Cette capacité semble comporter certaines hypothèses culturelles - à savoir que **tout ce qui peut être mesuré doit être mesuré; que les données constituent un filtre transparent et fiable nous permettant de mettre côté les émotions et l'idéologie**; ou encore que les données nous aideront à faire des choses remarquables - comme prédire l'avenir
 
@@ -359,9 +364,17 @@ David Brooks, éditorialiste du New York Times, ["The Philosophy of Data"](https
 
 
 ---
+
+### Exemple : les données de la déliquance
+
+.center.middle[
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bMZ4YVrIY_s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]
+
+---
 Class:
 
-## Les données brutes sont un oxymore
+### Les données brutes sont un oxymore
 
 .pull-left[
 > Les données sont toujours "cuisinées" et jamais tout à fait "brutes"
@@ -378,7 +391,7 @@ Class:
 .footnote[[Source](https://mitpress.mit.edu/books/raw-data-oxymoron)]
 ---
 
-## Data or capta ?
+### Data or capta ?
 
 > Techniquement, ce que nous nous appelons "donnée" est généralement **"capturé"** (issu du latin "capere", signifiant "prendre"); ces unités de données qui ont été sélectionnées et collectées parmi l'ensemble de toutes les données possibles.
 
@@ -450,6 +463,10 @@ Non numérique => texte, image, vidéo, son, musique...
 
 .reduite[![](img/annotation.png)]
 
+--- 
+### Exemple : la [grande annotation](https://grandeannotation.fr/)
+
+![](img/annot.png)
 ---
 
 ## Données structurées
