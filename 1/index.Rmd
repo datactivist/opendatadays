@@ -459,14 +459,16 @@ Non numérique => texte, image, vidéo, son, musique...
 ]
 
 ---
+
 ## Exemple : les annotations en text mining
 
 .reduite[![](img/annotation.png)]
 
---- 
+---
 ### Exemple : la [grande annotation](https://grandeannotation.fr/)
 
-![](img/annot.png)
+![](iimg/annot.png
+
 ---
 
 ## Données structurées
