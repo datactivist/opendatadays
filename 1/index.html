@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>Data Literacy</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Joël Gombin, Datactivist" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/datactivist.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/datactivist-fonts.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, orientation=auto"/>
+    <meta name="description" content="Open Data Days"/>
+    <meta name="github-repo" content="datactivist/opendatadays"/>
+    <meta name="twitter:title" content="Data Literacy"/>
+    <meta name="twitter:description" content="Open Data Days"/>
+    <meta name="twitter:url" content="https://datactivist.coop/opendatadays/2"/>
+    <meta name="twitter:image:src" content="https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/logo.png"/>
+    <meta name="twitter:image:alt" content="le logo de Datactivist"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:creator" content="@datactivi_st"/>
+    <meta name="twitter:site" content="@datactivi_st"/>
+    <meta name="og:title" content="Data Literacy"/>
+    <meta name="og:description" content="Open Data Days"/>
+    <meta name="og:url" content="https://datactivist.coop/opendatadays/2"/>
+    <meta name="og:image" content="https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/logo.png"/>
+    <meta name="og:image:alt" content="le logo de Datactivist"/>
+    <meta name="og:type" content="website"/>
+    <meta name="og:locale" content="fr_FR"/>
+    <meta name="og:site_name" content="Datactivist"/>
+    <meta name="article:author" content="Datactivist"/>
+    <link href="libs/countdown-0.3.5/countdown.css" rel="stylesheet" />
+    <script src="libs/countdown-0.3.5/countdown.js"></script>
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Data Literacy
+## Développez votre culture générale des données
+### Joël Gombin, Datactivist
+### 4 Mars 2020
+
+---
+
+
+
+
+
+layout: true
+
+&lt;style&gt;
+.remark-slide-number {
+  position: inherit;
+}
+
+.remark-slide-number .progress-bar-container {
+  position: absolute;
+  bottom: 0;
+  height: 4px;
+  display: block;
+  left: 0;
+  right: 0;
+}
+
+.remark-slide-number .progress-bar {
+  height: 100%;
+  background-color: #e95459;
+}
+
+&lt;/style&gt;
+  
+
+&lt;div class='my-footer'&gt;&lt;span&gt;Open Data Days&lt;/span&gt; &lt;center&gt;&lt;div class=logo&gt;&lt;img src='https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/fond_noir_monochrome.png' width='100px'&gt;&lt;/center&gt;&lt;/span&gt;&lt;/div&gt; 
+
+---
+
+class: center, middle
+
+Ces slides en ligne : http://datactivist.coop/opendatadays/2
+
+Sources : https://github.com/datactivist/opendatadays
+
+
+Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+&lt;BR&gt;
+&lt;BR&gt;
+
+![](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)
+
+
+---
+## Qui sommes-nous ?
+
+&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;
+
+[![](https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/logo.png)](https://datactivist.coop)
+
+### We .red[open data], we make them .red[useful]
+
+---
+## Qui sommes-nous ?
+
+
+![](./img/team2.png)
+
+---
+## Qui sommes-nous ?
+
+- Datactivist est un .red[**pure player de l’open data**] créé en 2016, par Samuel Goëta et Joël Gombin.
+
+- Se positionnant sur .red[**toutes les étapes du travail d’ouverture des données**], Datactivist travaille tant avec les producteurs de données qu’avec les réutilisateurs et participe à l’appropriation des données par chacun.
+
+- Nous appliquons nos propres .red[**valeurs**] : nous sommes une coopérative ; nos supports de formation et nos contenus sont librement réutilisables, publiés en licence Creative Commons.
+
+- Une approche issue de la recherche : voir notamment **https://datactivist.coop/these**. 
+
+- Nous animons la communauté [#TeamOpenData](https://teamopendata.org).
+
+---
+## Nos activités
+
+- Conseil sur les .red[**stratégies d’ouverture de données**] : nous aidons les organisations dans la conception et la mise en œuvre de leur stratégie d’ouverture de données.
+
+
+- .red[**Accompagnement dans la réutilisation de données ouvertes**] : nous aidons les organisations à utiliser les données au quotidien. 
+
+- .red[**Sensibilisation et formation à la donnée**] : nous formons à la culture générale des données, nous enseignons les grands principes et bonnes pratiques de l'open data et nous introduisons à la data science. 
+
+- .red[**Médiation de données**] : nous organisons des hackathons, des open data camps, des expéditions de données...
+
+???
+
+La médiation de données est aussi fondamentalement une animation de communauté(s). 
+
+
+---
+## Objectifs de la matinée
+&lt;BR&gt; &lt;BR&gt;
+
+- Comprendre ce qu'est une donnée
+
+
+- Appréhender la variété des types de données existantes
+
+
+- Comprendre les "nouveaux habits des données" : data science, big data, open data, data science...
+
+
+---
+class:middle, center
+## Echauffement :
+### 5 minutes, 20 données
+
+Vous avez 5 minutes
+
+Vous devez trouver 20 données dans notre environnement immédiat
+
+Pas de recours aux écrans !
+
+.footnote[[source](http://infolabs.io/5-minutes-20-donnees)]
+
+
+<div class="countdown" id="timer_5e5f427c" style="right:0;bottom:0;" data-audio="true" data-warnwhen="0">
+<code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+</div>
+
+---
+class:center,inverse, middle
+# Qu'est-ce 
+# qu'une donnée ?
+
+---
+## Le censeur à Rome, ancêtre de la statistique
+.center[.reduite3[![](img/asterix.png)]]
+
+.footnote[Source : *Asterix chez les pictes*, © Albert René 2013]
+---
+## Le censeur à Rome, ancêtre de la statistique
+.center[.reduite3[![](img/asterix1.png)]]
+
+.footnote[*Asterix chez les pictes*, © Albert René 2013]
+---
+## La statistique : outil de gouvernement et de preuve
+.pull-left[.middle[La statistique est à la fois :
+
+  + **outil de gouvernement** (_Statistik_ - 18e siècle), et
+  
+  
+  + **outil de preuve** (_statistics_ - 19e siècle)]]
+.pull-right[.reduite2[![center](./img/desrosieres1.jpg)]]
+---
+  
+## [Quantifier, c'est convenir puis mesurer](http://www.pressesdesmines.com/media/extrait/PourSocioHistExtr.pdf)
+
+.pull-left[
+&gt; Le verbe quantifier est employé ici dans un sens large : **exprimer et
+faire exister sous une forme numérique ce qui, auparavant, était exprimé par
+des mots et non par des nombres**.]
+
+.pull-right[.reduite2[![](img/desrosi.jpeg)]]
+
+---
+## [Quantifier, c'est convenir puis mesurer](http://www.pressesdesmines.com/media/extrait/PourSocioHistExtr.pdf)
+
+.center[.reduite3[![](img/asterix2.png)]]
+
+.footnote[*Asterix chez les pictes*, © Albert René 2013]
+
+---
+## Quantifier, c'est inscrire et figer une réalité sans cesse mouvante
+
+.center[.reduite3[![](img/asterix3.png)]]
+
+.footnote[*Asterix chez les pictes*, © Albert René 2013]
+
+---
+class:inverse, middle, center
+# Vers une définition des données
+
+---
+## Etymologie
+
+### Latin : _dare_ (donner) &gt; _datum_ (donné) &gt; _data_ (donnés)
+&lt;br/&gt;&lt;br/&gt;
+Ce qui est évident, va de soi, est accepté sans discussion
+
+&lt;br/&gt;&lt;br/&gt;
+
+&gt; L'existence d'une donnée est indépendante de toute considération de la vérité ontologique correspondante. Lorsqu'un fait s'avère être faux, il cesse d'être un fait. 
+Les fausses données n'en restent pas moins des données.
+
+.footnote[[Rosenberg, 2013](https://mitpress.mit.edu/books/raw-data-oxymoron)]
+
+---
+
+## Vers une définition
+
+.pull-left[.reduite3[
+![](img/kitchin.jpg)
+
+⏺ enregistrabilité +🏗 briques de base ("*buildings blocks*")]]
+.pull-right[
+&gt; *Les données sont généralement comprises comme étant la matière première produite par la synthèse du monde en catégories, mesures et autres formes de représentation - nombres, caractères, symboles, images, sons, ondes électromagnétiques, bits - qui constituent les éléments de base à partir desquels l'information et le savoir sont créés. *]
+
+---
+Class:
+## La pyramide Data-Information-Knowledge-Wisdom
+
+.pull-left[
+[![largeur](./img/DIKW_Pyramid.svg)](https://commons.wikimedia.org/w/index.php?curid=37705247)
+]
+
+.pull-right[Attribuée à [Russell Ackoff](http://en.wikipedia.org/wiki/Russell_L._Ackoff), 1989
+
+Les données peuvent être des :
+
+- faits
+- signal/stimulis
+- symboles]
+
+---
+Class:
+## La pyramide Data-Information-Knowledge-Wisdom
+
+- Les **.red[données]** sont la matière "brute" d'où naît l'information.
+
+- **.red[L'information]** pourrait être définie comme des données qui ont été consignées,
+classées, organisées, raccordées ou interprétées dans un cadre qui en dégage le sens
+
+- En donnant du sens à de l'information, on obtient de la **.red[connaissance]**
+
+- En donnant du sens à la **.red[connaissance]** on obtient du savoir
+
+---
+Class:
+## La pyramide Data-Information-Knowledge-Wisdom
+
+.center[&lt;img src="./img/competence.png" height="300"/&gt;]
+
+_NB : le haut de la pyramide, est parfois remplacé par "compétence"_
+
+---
+class: inverse, center, middle
+
+## La mise en données du monde
+
+---
+## "Datafication" : la mise en données du monde
+&gt; “L'immense gisement de données numériques découle de la capacité à paramétrer des aspects du monde et de la vie humaine qui n'avaient encore jamais été quantifiés. On peut qualifier ce processus de **« mise en données » (datafication)**. 
+
+&gt; […] “La mise en données désigne autre chose que la numérisation, laquelle consiste à traduire un contenu analogique - texte, film, photographie - en une séquence de 1 et de 0 lisible par un ordinateur. Elle se réfère à une action bien plus vaste, et aux implications encore insoupçonnées : **numériser non plus des documents, mais tous les aspects de la vie**.”
+
+.footnote[[Kenneth Cukier, “Mise en données du monde, le déluge numérique”](https://www.monde-diplomatique.fr/2013/07/CUKIER/49318)]
+
+---
+
+## La "nombrification" du monde
+
+.pull-left[.reduite[![](./img/couv_rey.jpg)]]
+.pull-right[
+&gt; La numérisation ne serait pas survenue sans une "nombrification" préalable qui consiste à quantifier de plus en plus d'aspects de notre expérience du réel.
+&gt; **Au commencement était le verbe, il semble à la fin que tout devient nombre.**
+&gt; Personne ne saurait parler sérieusement de l'état de la société et discuter politique sans se référer aux informations quantitatives.]
+
+---
+Class: middle, center
+
+## La mise en données du monde
+
+- **Concrètement, aujourd'hui, quels aspects de votre vie sont mis en données ?**
+
+--
+
+- Recherches internet, pratiques sportives, consommation énergie, régime alimentaire, trajets dans les transports en commun...
+
+- Cette mise en donnée est rendue possible par le développement de .red[**capteurs**] qui viennent collecter et agréger ces données. **Avez-vous des exemples de capteurs ?**
+
+--
+
+- Recherches internet .red[(cookies)], pratiques sportives .red[(montres connectées)], consommation énergie .red[(compteurs connectés)], régime alimentaire .red[(appli type Yuka)], trajets dans les transports en commun .red[(Pass Navigo)]...
+
+- La question devient peut-être, *quels aspects de votre vie ne sont pas (encore) mis en données ?*
+
+---
+## Le nouveau positivisme des données
+
+&gt; Si vous me demandiez de décrire la philosophie naissante du jour, je dirais que c’est du **data-isme**. Nous sommes maintenant en mesure de collecter d'énormes quantités de données. Cette capacité semble comporter certaines hypothèses culturelles - à savoir que **tout ce qui peut être mesuré doit être mesuré; que les données constituent un filtre transparent et fiable nous permettant de mettre côté les émotions et l'idéologie**; ou encore que les données nous aideront à faire des choses remarquables - comme prédire l'avenir
+
+David Brooks, éditorialiste du New York Times, ["The Philosophy of Data"](https://www.nytimes.com/2013/02/05/opinion/brooks-the-philosophy-of-data.html)
+
+.center[![](img/brooks.png)]
+
+---
+## Le nouveau positivisme des données
+
+- Attention, les données, même provenant de sources officielles, ne sont pour autant neutres, irréprochables ou porteuses de "LA" vérité
+
+.center[&lt;img src="./img/baddata2.png" height="200"/&gt;]
+
+- **Avez-vous des exemples de données officielles pouvant faire l'objet de critiques ?**
+--
+
+- Délinquance, immigration, SDF...
+
+.footnote[© Scott Adams]
+
+
+---
+Class:
+
+## Les données brutes sont un oxymore
+
+.pull-left[
+&gt; Les données sont toujours "cuisinées" et jamais tout à fait "brutes"
+
+
+&gt; Les données ont besoin au préalable d'être imaginées comme données pour exister et fonctionner comme telles. L'imagination de ces données implique une base d'interprétation
+
+]
+.pull-right[
+![](./img/unitemesure.png)
+
+.footnote[© Xavier Gorce 2018]]
+
+.footnote[[Source](https://mitpress.mit.edu/books/raw-data-oxymoron)]
+---
+
+## Data or capta ?
+
+&gt; Techniquement, ce que nous nous appelons "donnée" est généralement **"capturé"** (issu du latin "capere", signifiant "prendre"); ces unités de données qui ont été sélectionnées et collectées parmi l'ensemble de toutes les données possibles.
+
+
+[Kitchin, 2014](https://books.google.fr/books?hl=fr&amp;lr=&amp;id=GfOICwAAQBAJ&amp;oi=fnd&amp;pg=PP1&amp;dq=kitchin+data+revolution&amp;ots=pcyfMTZh-V&amp;sig=dQyPTL3AIN_4RdWvtBFw4VjdAa4#v=onepage&amp;q=kitchin%20data%20revolution&amp;f=false)
+
+.center[&lt;img src="./img/robkitchin.jpg" height="250"/&gt;] 
+
+---
+
+## Données ou obtenues ? 
+
+
+&gt; Décidément, on ne devrait jamais parler de “données”, mais toujours d’ “obtenues”.
+
+[Bruno Latour, 1993](http://www.bruno-latour.fr/fr/node/255)
+
+.center[&lt;img src="./img/latour.jpg" height="250"/&gt;] 
+
+---
+class:center, middle, inverse
+
+## Pause café : 15 minutes
+
+<div class="countdown" id="timer_5e5f4268" style="right:0;bottom:0;" data-audio="true" data-warnwhen="0">
+<code class="countdown-time"><span class="countdown-digits minutes">15</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+</div>
+
+
+---
+
+class:center, middle, inverse
+# Données, données... quelles données ?
+
+---
+
+## Données quantitatives
+
+Différents types de variables : 
+- **Nominale** : des catégories que l’on nomme avec un nom (marié/célibataire/divorcé/veuf)
+
+
+- **Ordinale** : échelle de mesure dotant chaque élément d'une valeur qui permet leur classement par ordre de grandeur (faible, moyen, fort)
+
+
+- **Métriques** : Au lieu de classer, on mesure et on attribue à chaque élément un nombre qui est tel que des intervalles numériques égaux représentent des distances égales dans la propriété mesurée (ex : température).  
+
+---
+
+## Données qualitatives
+
+.pull-left[
+Non numérique =&gt; texte, image, vidéo, son, musique...
+
+  + peuvent être converties en données quantitatives
+
+  + risque de perdre la richesse des données originales
+  
+  + analyse qualitative de données
+  
+]
+.pull-right[
+![](img/text_mining_intro_2.png)
+]
+
+---
+## Exemple : les annotations en text mining
+
+.reduite[![](img/annotation.png)]
+
+---
+
+## Données structurées
+
+.pull-left[
+Des données dotées d'un modèle qui définit les relations entre les composantes de la base de données
+
+  + Ex : base de données relationnelle SQL
+  
+  + Lisibles machine
+  
+  + Faciles à analyser, manipuler, visualiser...
+]
+.pull-right[
+![](img/sql.jpeg)
+]
+
+---
+
+## Données semi-structurées
+
+.pull-left[
+Pas de modèle prédéfini : structure irrégulière, implicite... mais données organisées néanmoins, ensemble raisonnable de champs
+
+Exemple : XML, JSON
+
+Possible de trier, ordonner et structurer les données
+]
+.pull-right[
+![](img/OCDSjson.jpg)
+]
+
+---
+
+## Données non structurées
+
+.pull-left[Pas de structure commune identifiable
+
+
+Exemple : BDD NoSQL
+
+Généralement qualitatives
+
+Difficilement combinées ou analysées quantitativement..
+
+Les données non structurées croitraient 15x plus que les données structurées.
+ 
+Machine learning de + en + capable d'analyser ces données.]
+
+.pull-right[
+![](img/structured-vs-unstructured-data.png)
+]
+
+---
+
+## Données capturées, échappées, transitoires 
+
+** Données capturées**
+
+Observation, enquête, expérimentation, prise de notes, senseurs... =&gt; intention de générer des données
+
+** Données échappées**
+
+Sous-produit d'un engin ou d'un système dont la fonction première est autre
+** Avez-vous des exemples de données échappées ?**
+--
+
+Parking, borne d'accès... et beaucoup de données administratives ouvertes !
+
+** Données transitoires**
+
+Echappées qui ne sont jamais examinées, transformées ou analysées
+
+
+---
+## Données dérivées
+
+Résultat d'un traitement ou une analyse supplémentaire de données capturées. 
+
+Exemple avec les [données de Google Maps](https://www.justinobeirne.com/google-maps-moat) : 
+
+
+![](https://static1.squarespace.com/static/54ff63f0e4b0bafce6932642/t/5a383fdb41920241ebce859d/1513635810327/3-1+-+Making+AOIs.gif?format=1500w)
+
+---
+
+##Index, attributs, métadonnées
+
+**Index**
+
+Des données permettent l'identification et la mise en relation. Essentielles pour enrichir les données. Exemple : SIRET. 
+
+**Attributs**
+
+Des données représentent les aspects d'un phénomène, mais ne sont pas des index (pas identifiants uniques).
+
+**Métadonnées**
+
+Des données sur les données. Peuvent être descriptives, structurelles ou administratives. Exemple de standard : le [Dublin Core](https://fr.wikipedia.org/wiki/Dublin_Core). 
+
+---
+
+## Les données crowdsourcées
+
+Des données produites par des citoyens, qui sont éventuellement des communs partagés et gouvernés par leurs producteurs
+
+**Connaissez-vous un site ou une application fonctionnant via des données crowdsourcées ?**
+
+--
+
+.pull-left[Exemple : OpenStreetMap, le wiki de la carte]
+
+.pull-right[
+.reduite[![](img/osm.png)]
+]
+
+---
+## Exemple : OpenStreetMap
+
+.center[![](./img/openstreetmap.png)] 
+
+---
+class:inverse, middle, center
+# Big data
+
+---
+
+## Les 4 V du Big data
+
+![](https://www.usine-digitale.fr/mediatheque/0/3/5/000351530/big-data.jpg)
+
+---
+
+## L'obsession du volume de données
+
+.pull-left[
+**Quelques chiffres omniprésents** : 
+- le volume de données produit double tous les 3 ans (Gantz &amp; Reisel 2011)
+- 90% des données créées dans les deux dernières années (IBM 2012)
+- 40% : croissance annuelle de la production de données (Maniyka et al. 2011) 
+]
+.pull-right[
+**Problèmes de cette approche** : 
+- Estimations guidées par des intérêts commerciaux
+- Ne définit pas ce que sont ces données
+- Résume le big data au Volume
+-Explique mal la mise en données du monde
+
+]
+
+---
+
+## Les promesses du big data
+
+** Selon vous, quels sont les intérêts du big data ?**
+
+--
+
+Kitchin (2014) résume les promesses du big data : 
+- **“Administrer les citoyens”** : dans la continuité de la statistique, améliorer la connaissance de l’administration et prédire l(par exemple, es crimes
+)
+- **“Gérer les organisations”** : améliorer le fonctionnement de toutes les composantes de l’organisation par l’exploitation des données
+
+- **“Accroître la valeur”** : micro-ciblage marketing, optimisation des magasins et des opérations, efficience de la chaine
+
+- **“Créer de meilleurs endroits”** : gouverner les villes avec des données (smart city) 
+
+- **Un nouveau paradigme scientifique** : une nouvelle ère guidée par les corrélations
+, sans théorie
+---
+
+## Linked data
+
+
+- poussé par le W3C et Tim Berners-Lee
+- sémantique / web des données
+- S'appuyer sur des formats ouverts : RDF / SPARQL
+- wikidata =&gt; http://projetjourdain.org/network/index.htm
+
+.center[![](http://linkeddata.org/static/images/lod-datasets_2009-07-14_cropped.png)]
+
+---
+
+## API
+
+.pull-left[
+- Application programming interface =&gt; un programme vu de la surface
+
+- les machines parlent aux machines
+
+- donnée dynamique =&gt; ouverture potentiellement limitée et contrôlée 
+
+- un exemple : [overpass turbo](https://overpass-turbo.eu/)]
+.pull-right[
+![](https://d1avok0lzls2w.cloudfront.net/img_uploads/apis-for-marketers.png)
+]
+
+---
+class:center, middle, inverse
+
+## Pause café : 10 minutes
+
+<div class="countdown" id="timer_5e5f4353" style="right:0;bottom:0;" data-audio="true" data-warnwhen="0">
+<code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+</div>
+
+
+--
+class:inverse, middle, center
+## Qu'est-ce que la data science ?
+
+---
+class:middle
+
+## Au commencement était la statistique
+
+- une vieille science (18e siècle), pour aider les États (_Statistik_) mais aussi des entreprises privées (au départ, les assureurs =&gt; actuariat)
+
+- fondée sur les probabilités
+
+- faite par des mathématiciens
+
+- forte dimension théorique
+
+---
+class:middle
+## Data science : les nouvelles statistiques ?
+
+&gt; Je continue à dire que le travail sexy dans les dix prochaines années sera celui de statisticien. Les gens pensent que je plaisante, mais qui aurait deviné que les ingénieurs en informatique auraient été le métier sexy des années 1990 ?
+
+Hal Varian (Chief economist, Google), The McKinsey Quarterly, January 2009
+
+
+&gt; “e pense que data-scientist est un terme glamour pour désigner un statisticien”.
+[Nate Silver](http://www.statisticsviews.com/details/feature/5133141/Nate-Silver-What-I-need-from-statisticians.html)
+---
+
+## Data science is the new statistics?
+
+.center[.reduite[![](./img/data-science-venn-diagram.png)]]
+
+---
+## Développement de la puissance de calcul
+
+[![hauteur](./img/moore.png)](http://visual.ly/infographic-about-computers)
+---
+## Développement de la capacité de stockage
+
+[![hauteur](./img/altavista.png)](https://twitter.com/alicemazzy/status/655306196128280576?ref_src=twsrc%5Etfw)
+---
+## Développement de la capacité de stockage
+
+[![largeur](./img/amazon.png)](https://aws.amazon.com/blogs/aws/aws-snowmobile-move-exabytes-of-data-to-the-cloud-in-weeks/)
+
+.center[&lt;img src="./img/snowmobile.jpg" height="200"/&gt;]
+
+---
+Class: middle
+## Que fait-on une fois qu'on a des données ?
+
+### Modélisation
+
+- Un modèle réduit de la réalité pour analyser, expliquer ou prédire
+
+Modéliser, c’est mettre en relation une *variable expliquée*
+(dépendante / prédite) et une ou plusieurs *variables explicatives*
+(indépendantes / prédicteurs).
+
+
+---
+## Pourquoi modéliser ?
+
+.reduite[.center[![](./img/Hibbs.jpg)]]
+
+
+---
+## Pourquoi modéliser ? Les ["deux cultures"](https://projecteuclid.org/download/pdf_1/euclid.ss/1009213726)
+
+- pour analyser et expliquer
+
+- pour prédire
+
+---
+## Pourquoi modéliser ? Les ["deux cultures"](https://projecteuclid.org/download/pdf_1/euclid.ss/1009213726)
+
+- pour analyser et expliquer (**statistiques classiques, économétrie**)
+
+- pour prédire (**machine learning, IA...**)
+
+### Tous les modèles sont faux, certains sont utiles
+
+---
+## Et le machine learning alors ?
+
+- Fondamentalement, modélisation et machine learning ne sont pas différents, du point de vue d'un statisticien : modéliser un `\(Y\)` en fonction d'un vecteur de `\(X_i\)`
+
+- une des différences principales toutefois : veut-on prévoir ou comprendre/analyser ?
+
+
+- en pratique : machine learning porte sur des données plus complexes que la modélisation traditionnelle
+
+- Souvent beaucoup de valeurs manquantes 
+
+---
+## Concepts de machine learning
+
+- Apprentissage supervisé vs non supervisé 
+
+- Apprentissage supervisé : il faut des données déjà classées/étalonnées. Souvent à la main ! =&gt; *[#digitallabour](https://journals.openedition.org/lectures/19584)*
+
+---
+## Apprentissage supervisé 
+
+[.reduite[.center[![](./img/captcha.jpg)]]](https://fakecaptcha.com)
+
+---
+## Apprentissage supervisé
+
+[.reduite[.center[![](./img/opensolarmap.png)]]](https://cquest.hackpad.com/OpenSolarMap-9oMiYswLksF)
+
+---
+class: center, middle, inverse
+
+# Le data pipeline
+
+---
+
+## Le pipeline de données
+
+![largeur](./img/pipeline.png)
+
+---
+## Vérifier les données
+
+[![](img/sanity.jpg)](http://www.erogol.com/ml-work-flow-part-4-sanity-checks-data-spliting/)
+
+---
+## Vérifier les données
+
+[![](img/sprint.png)](http://infolabs.io/sprint-qualite)
+
+---
+## Nettoyer les données
+
+Paradigme du [_tidy data_](http://vita.had.co.nz/papers/tidy-data.pdf) (Hadley Wickham)
+
+&gt; “Les familles heureuses sont toutes pareilles; chaque famille malheureuse est malheureuse à sa manière.” – Leon Tolstoï 
+
+&gt; “Les jeux de données ordonnés se ressemblent tous, mais chaque jeu de données désordonné est désordonné à sa manière
+.” – Hadley Wickham
+
+**Principes du *tidy data* ("données ordonnées")**
+- Chaque variable correspond à une colonne
+- Chaque observation/individu correspond à une ligne
+- Chaque type d'unité d'observation correspond à une table
+- Chaque cellule comporte une donnée 
+
+---
+# Analyser et modéliser les données
+
+C'est le cœur de la data science... et souvent le plus rapide, paradoxalement. 
+
+---
+# Visualiser les données
+### Choisir un format de visualisation
+
+.center[.reduite[[![](img/datatoviz.png)](https://www.data-to-viz.com/)]]
+
+---
+# Visualiser les données
+### Trouver un outil
+.reduite[[![](img/opennews.png)](https://source.opennews.org/articles/what-i-learned-recreating-one-chart-using-24-tools/)]
+
+
+---
+class: inverse, center, middle
+
+# Merci !
+
+Contact : [joel@datactivist.coop](mailto:joel@datactivist.coop)
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="macros.js"></script>
+<script src="matomo.js"></script>
+<script src="https://platform.twitter.com/widgets.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"slideNumberFormat": "<div class=\"progress-bar-container\">   <div class=\"progress-bar\" style=\"width: calc(%current% / %total% * 100%);\">   </div> </div> "
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
