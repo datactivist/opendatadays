@@ -113,7 +113,7 @@ Le nouveau pétrole et les promesses démesurées de croissance
 
 Désiloter l'administration et ouvrir l'innovation, collaborer avec la société civile dans l'élaboration et la mise en œuvre des politiques publiques
 
-.reduite[.center[![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/D%C3%A9mocratie_Ouverte.png/800px-D%C3%A9mocratie_Ouverte.png]]
+.reduite[.center[![](img/800px-Démocratie_Ouverte.png)]]
 
 ---
 ### Open data : un terme récent
@@ -199,13 +199,14 @@ class: middle, center
 ---
 ### Des données inexploitables : le nombre de flashs aux radars
 
+.middle[
 .pull-left[
 [![](img/radar1.png)](https://teamopendata.org/t/demande-de-donnees-a-des-administrations/1082/6)
 ]
 .pull-right[
 [![](./img/radars.png)](https://www.data.gouv.fr/fr/datasets/radars-automatiques-bilans-annuels-du-nombre-de-flashs/)
 ]
-
+]
 ---
 class: middle, center
 
@@ -243,15 +244,6 @@ class: middle, center
 
 >Yu & Robinson (2012) « [The New Ambiguity of Open Government](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2012489) » 
 
----
-### 2011 : [la déclaration pour un gouvernement ouvert](https://www.opengovpartnership.org/d-claration-commune-pour-un-gouvernement-ouvert)
-
-.reduite.[center[![](img/declaration.png)]]
-
----
-### [Le fonctionnement du PGO](http://www.opengovpartnership.org/sites/default/files/OGP_Booklet_20160911_FR.pdf)
-
-.center[.reduite[![](img/opengov.png)]]
 
 ---
 ### Depuis 2010 : l'ère des classements
@@ -282,7 +274,7 @@ class: inverse, center, middle
 Je n'indique ici que quelques éléments généraux sur le cadre juridique, ce guide constitue votre source de référence. Joël Gombin, co-fondateur de Datactivist, a publié sa [fiche de lecture](https://teamopendata.org/t/guide-commun-cnil-et-cada-open-data-rgpd/1320) sur TeamOpenData.
 
 .reduite[.center[
-[![](./img/guide.png)](https://www.cnil.fr/sites/default/files/atoms/files/guide_open_data.pdf)
+[![](./img/guide.png)](https://www.cnil.fr/sites/default/files/atoms/files/guide-open-data.pdf)
 ]]
 
 ---
@@ -295,12 +287,6 @@ Je n'indique ici que quelques éléments généraux sur le cadre juridique, ce g
 * La France était le .red[3e pays au monde] après la Suède en 1766 et les Etats-Unis en 1966 avec le Freedom of Information Act (FOIA) en 1966  à accorder un "droit de savoir" avec pour but d'améliorer les relations entre le public et l'administration.
 
 .footnote[Il faudrait maintenant désigner la loi comme le Code des relations entre le public et l'administration (CRPA) qui, dans son [livre 3](https://www.legifrance.gouv.fr/affichCode.do;jsessionid=BDF8EC0BD562E214CCD9A5ADD435D690.tplgfr42s_1?idSectionTA=LEGISCTA000031367685&cidTexte=LEGITEXT000031366350&dateTexte=20190429), codifie le droit d'accès et de réutilisation mais il est encore moins connu que la loi CADA…]
-
----
-### La loi CADA : un point noir dans la transparence de la vie publique
-
-Même si la France est le 3e pays à avoir adopté un droit d'accès, la loi CADA n'est pas un outil fort de la transparence de la vie publique. Ses principaux défauts : l'absence de sanctions et une procédure longue qui décourage les demandeurs et favorise le contournement par les administrations. 
-[![](./img/europam.png)](http://europam.eu/?module=country-profile&country=France)
 
 ---
 ### Un droit d'accès très faible au regard des standards internationaux
@@ -317,6 +303,13 @@ L'open data est comme la Tour de Pise : un très bel édifice posé sur des fond
 ]
 
 ---
+### La loi CADA : un point noir dans la transparence de la vie publique
+
+Même si la France est le 3e pays à avoir adopté un droit d'accès, la loi CADA n'est pas un outil fort de la transparence de la vie publique. Ses principaux défauts : l'absence de sanctions et une procédure longue qui décourage les demandeurs et favorise le contournement par les administrations. 
+[![](./img/europam.png)](http://europam.eu/?module=country-profile&country=France)
+
+---
+
 ### Les conditions d'exercice du droit d'accès
 
 .red[ Une définition très large des documents administratifs]
@@ -384,20 +377,6 @@ L'ouverture concerne un .red[**périmètre très large**] :
 * les "bases de données"
 * les données "dont la publication présente un intérêt économique, social, sanitaire ou environnemental".
 Rares sont donc les données publiques qui ne sont pas concernées par cette obligation d'ouverture. 
-
----
-
-### La définition des données
-
-Le guide CADA-CNIL rappelle la **définition des "bases de données"**
-
-> On entend par base de données un recueil d'œuvres, de données ou d'autres éléments indépendants, disposés de manière systématique ou méthodique, et individuellement accessibles par des moyens électroniques ou par tout autre moyen (art L112-3 du code de la propriété intellectuelle)
-
-> En d’autres termes il s’agit d’un ensemble de données organisé en vue de son utilisation par des programmes correspondant à des applications distinctes et de manière à faciliter l'évolution indépendante des données et des programmes (en anglais : data base)
-
-Le document donne également une **définition de ce qu'est une "donnée"** :
-
-> Une donnée correspond à la représentation d'une information sous une forme conventionnelle destinée à faciliter son traitement (en anglais : data).
 
 ---
 ### Loi pour une République numérique : l'utilisation de standards ouverts
@@ -507,6 +486,18 @@ Ce fichier contient tous les signes officiels de la qualité et de l'origine (SI
 Ce jeu de données contient plus de 6000 marchés publics attribués par l'Etat. Mais, malgré mon [signalement](https://www.data.gouv.fr/fr/datasets/aife-de-44785462100045/#discussion-5c5d2857634f41019657c80d-0), tout est fait pour le rendre introuvable !
 
 [.reduite[![](./img/wtfopendata.png)]](https://www.data.gouv.fr/fr/datasets/aife-de-33592022900036-23/)
+
+---
+### Encore un autre exemple de données introuvables (une passion personnelle)
+
+![](img/fdva.png)
+
+
+---
+### Encore un autre exemple de données introuvables (une passion personnelle)
+
+![](img/jaune.gif)
+
 ---
 
 ### Le développement de l'open data en France
@@ -583,6 +574,15 @@ Ce jeu de données contient plus de 6000 marchés publics attribués par l'Etat.
 ]
 
 ---
+### Exemple de données ouvertes : le [fichier des personnes décédées](https://www.data.gouv.fr/fr/datasets/fichier-des-personnes-decedees/)
+
+![](img/deces.png)
+
+---
+### Exemple de données ouvertes : le [fichier des personnes décédées](https://www.data.gouv.fr/fr/datasets/fichier-des-personnes-decedees/)
+
+[![](https://static.data.gouv.fr/images/90/4a69979666463f9a3297bef0d3c91a.png)](https://deces.matchid.io/)
+---
 class: inverse, center, middle
 
 # Le  cycle de l'ouverture des données
@@ -603,70 +603,7 @@ class: inverse, center, middle
 
 Edwards, P. N. et al. (2011) [‘Science friction: Data, metadata, and collaboration’](https://journals.sagepub.com/doi/abs/10.1177/0306312711413314), _Social Studies of Science_, 41(5)
 
----
-### Identifier
-
-.pull-left[
-![](./img/identifier.png)
-]
-
-.pull-right[
-* Rencontrer les agents
-
-* Etudier les données ouvertes par d'autres collectivités
-
-* Cartographier les données
-
-* Documenter les données
-
-]
-
----
-### L’inventaire : un processus au long cours
-
-.pull-left[
-[![](./img/iden_etalab.png)](https://www.data.gouv.fr/fr/datasets/recensement-indicatif-des-donnees-publiques-issues-des-services-publics-de-letat/)
-]
-.pull-right[
-* L’utopie de l’inventaire exhaustif
-
-
-* Une démarche progressive et exploratoire
-
-
-* Question : comment qualifier les données ?
-
-
-* A lier aux processus de plan d’occupation des sols des DSI
-
-]
----
-### Les tableaux de gestion des archivistes comme support à l'identification 
-
-![](./img/tableaugestion.png)
-
----
-
-### S'appuyer sur le recensement pour connaitre données ouvrables
-
-[![](./img/recen.gif)](https://medium.com/datactivist/qui-a-ouvert-quoi-le-recensement-des-donn%C3%A9es-des-villes-est-maintenant-ouvert-b7f697135c1f)
-
----
-### Valider
-
-.pull-left[
-![](./img/valider.png)
-]
-
-.pull-right[
-* Evaluer les jeux de données
-
-* Prioriser l’ouverture 
-
-* Valider l’ouverture par la hiérarchie
-
-]
-
+-
 ---
 ### Quelques “bonnes raisons organisationnelles” de ne pas ouvrir des données
 
@@ -682,124 +619,10 @@ Edwards, P. N. et al. (2011) [‘Science friction: Data, metadata, and collabora
 * Des données trop “sensibles” pour être ouvertes : la transparence, un mandat à obtenir 
 
 ---
-### Éditer
-
-.pull-left[
-![](./img/editer.png)
-]
-
-.pull-right[
-_data editing_: les opérations par lesquelles les statisticiens traitent et transforment les données issues des sources administratives (Desrosières 2005) 
-
-* Anonymiser des données 
-
-* Enlever la sensibilité de données qui ne pouvaient pas être publiées
-
-* Rendre intelligible les acronymes 
-
-* Améliorer la qualité des données
-
-]
-
----
-### Le sprint qualité des données de la FING
-
-Petit exercice : en groupe, sélectionnez un jeu de données et essayer d'appliquer 5 points de contrôle 
-[![](./img/sprint.png)](https://infolabs.io/sprint-qualite)
-
----
-### [Dataproofer](http://dataproofer.org/) : un outil de contrôle automatique de la qualité
-
-![](./img/dataproofer.png)
----
-### [WTFCSV](https://databasic.io/en/wtfcsv/) pour prévisualiser et contrôler un jeu de données
-
-![](./img/wtfcsv.png)
----
-### Standardiser
-
-.pull-left[
-![](./img/standardiser.png)
-]
-
-.pull-right[
-* Convertir les données dans un format ouvert (spécifications techniques publiques et sans restriction d'accès ni de mise en œuvre) et lisible par les machines
-
-* Adopter des spécifications partagées : GTFS, DECP, IATI, OCDS, socle commun des données locales…
-
-* Transformer les données
-
-]
-
----
-### Passage en CSV : bien plus que “enregistrer sous”
-
-[![](./img/excel1.png)](http://fr.slideshare.net/christophelibertidf/bonnes-pratiquesexcel-cc27juin2013)
-
----
-### Passage en CSV : bien plus que “enregistrer sous”
-
-[![](./img/excel2.png)](http://fr.slideshare.net/christophelibertidf/bonnes-pratiquesexcel-cc27juin2013)
----
-### Passage en CSV : bien plus que “enregistrer sous”
-
-[![](./img/excel3.png)](http://fr.slideshare.net/christophelibertidf/bonnes-pratiquesexcel-cc27juin2013)
-
----
-### Passage en CSV : bien plus que “enregistrer sous”
-
-.reduite.center[![](./img/excel4.png)](http://fr.slideshare.net/christophelibertidf/bonnes-pratiquesexcel-cc27juin2013)
-
----
-### Publier
-
-.pull-left[
-![](./img/publier.png)
-]
-
-.pull-right[
-* Importer les données sur le portail
-
-* Décrire les champs du fichier
-
-* Documenter les métadonnées
-]
-
----
-### [Datasheet for Datasets](https://teamopendata.org/t/traduction-et-adaptation-du-modele-de-description-des-donnees-datasheet-for-datasets/1400) : un modèle de documentation des données
-
-.reduite.center[
-![](./img/datasheet.png)
-]
-
----
-### Mettre à jour
-
-.pull-left[
-![](./img/update.png)
-]
-
-.pull-right[
-
-* Mettre à jour manuellement ou automatiser l’ouverture
-
-* Conserver les données
-
-* Prendre en compte les retours des usagers
-
-]
----
 ### Les facteurs clés de succès
 
 
-- obtenir un soutien au plus haut niveau
-
-- configurer l’organisation pour l’ouverture 
-
-- faciliter la découverte et l’utilisation des données 
-
-- rester à l'écoute et interagir avec les usagers 
-
+![](http://www.opendatafrance.net/wp-content/uploads/2019/06/Affiche_opendata-01.png)
 ---
 ### Les bénéfices de l'open data
 
