@@ -78,7 +78,7 @@ layout: true
 
 class: center, middle
 
-Ces slides en ligne : `r paste0("http://datactivist.coop/", params$slug, "/1")`
+Ces slides en ligne : `r paste0("http://datactivist.coop/", params$slug)`
 
 Sources : `r paste0("https://github.com/datactivist/", params$slug)`
 
@@ -241,10 +241,13 @@ Elles permettent de sélectionner par exemple uniquement un certain producteur.
 
 Cela peut faire gagner beaucoup de temps dans une recherche de données.
 ]
+
 ---
+
 ### Utiliser les facettes pour trouver les bonnes données
 
 ![](./img/ECOLE.png)
+
 .pull-left[
 Sans filtre par facette, à la requête écoles, on a des résultats étonnants en première page comme ces données de la FEMIS.  
 ]
@@ -252,6 +255,7 @@ Sans filtre par facette, à la requête écoles, on a des résultats étonnants 
 .pull-right[
 En gardant uniquement "Education Nationale"" dans la facette organisation, on s'assure de trouver des données nationales. 
 ]
+
 ---
 ### Utiliser Google Dataset Search
 
@@ -357,7 +361,7 @@ L'extension Webscraper permet de capturer des données sur des sites avec une ar
 ** Démonstration avec ce site qui référence la plupart des [escape games en France](https://www.escapegame.fr/france/)**
 ]
 
-![](img/escape.png)
+.reduite[![](img/escape.png)]
 
 ---
 ### Extraire des données d'OpenStreetMap
