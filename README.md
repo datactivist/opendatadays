@@ -56,7 +56,7 @@ Dans cet atelier de formation, Sébastien Touchais de [Servebox](http://servebox
 
 Cette rencontre animée par Charles Nepote (ex FING, Open Food Facts) prendra la forme d'une série de témoignages de producteurs et de réutilisateurs de données afin d'engager un dialogue sur la manière d'accroitre l'impact de l'ouverture des données. 
 
-*Liste des intervenants annoncée très prochainement.*
+*Parmi les participants/intervenants : la Région Sud-Provence-Alpes-Côte d'Azur, le média frequence-sud.fr (depuis 10 ans réutilisateur d'open data), le DONUT Infolab, la DREAL, ATMOSUD, Vincent Kober (auteur de référence sur l'Open Data)...*
 
 ### 18h30-21h30 : lancement du meetup open data Aix-Marseille
 
