@@ -7,6 +7,26 @@
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/datactivist.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/datactivist-fonts.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, orientation=auto"/>
+    <meta name="description" content="Open Data Days"/>
+    <meta name="github-repo" content="datactivist/opendatadays/3/"/>
+    <meta name="twitter:title" content="Data Pipeline"/>
+    <meta name="twitter:description" content="Open Data Days"/>
+    <meta name="twitter:url" content="https://datactivist.coop/opendatadays/3//1"/>
+    <meta name="twitter:image:src" content="https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/logo.png"/>
+    <meta name="twitter:image:alt" content="le logo de Datactivist"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:creator" content="@datactivi_st"/>
+    <meta name="twitter:site" content="@datactivi_st"/>
+    <meta name="og:title" content="Data Pipeline"/>
+    <meta name="og:description" content="Open Data Days"/>
+    <meta name="og:url" content="https://datactivist.coop/opendatadays/3//1"/>
+    <meta name="og:image" content="https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/logo.png"/>
+    <meta name="og:image:alt" content="le logo de Datactivist"/>
+    <meta name="og:type" content="website"/>
+    <meta name="og:locale" content="fr_FR"/>
+    <meta name="og:site_name" content="Datactivist"/>
+    <meta name="article:author" content="Datactivist"/>
   </head>
   <body>
     <textarea id="source">
@@ -19,18 +39,42 @@ class: center, middle, inverse, title-slide
 ---
 
 
+
+
+
 layout: true
+
+&lt;style&gt;
+.remark-slide-number {
+  position: inherit;
+}
+
+.remark-slide-number .progress-bar-container {
+  position: absolute;
+  bottom: 0;
+  height: 4px;
+  display: block;
+  left: 0;
+  right: 0;
+}
+
+.remark-slide-number .progress-bar {
+  height: 100%;
+  background-color: #e95459;
+}
+
+&lt;/style&gt;
   
 
-&lt;div class='my-footer'&gt;&lt;span&gt;Formats outils et bonnes pratiques de la visualisation de données&lt;/span&gt; &lt;center&gt;&lt;div class=logo&gt;&lt;img src='https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/fond_noir_monochrome.png' width='100px'&gt;&lt;/center&gt;&lt;/span&gt;&lt;/div&gt; 
+&lt;div class='my-footer'&gt;&lt;span&gt;Open Data Days&lt;/span&gt; &lt;center&gt;&lt;div class=logo&gt;&lt;img src='https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/fond_noir_monochrome.png' width='100px'&gt;&lt;/center&gt;&lt;/span&gt;&lt;/div&gt; 
 
 ---
 
 class:center, middle
 
-Ces slides en ligne : http://datactivist.coop/opendatadays/4
+Ces slides en ligne : http://datactivist.coop/opendatadays/3/
 
-Sources : https://github.com/datactivist/opendatadays/4
+Sources : https://github.com/datactivist/opendatadays/3/
 
 Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
 
@@ -629,10 +673,14 @@ class: inverse, center, middle
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="macros.js"></script>
+<script src="matomo.js"></script>
+<script src="https://platform.twitter.com/widgets.js"></script>
 <script>var slideshow = remark.create({
 "highlightStyle": "github",
 "highlightLines": true,
-"countIncrementalSlides": false
+"countIncrementalSlides": false,
+"slideNumberFormat": "<div class=\"progress-bar-container\">   <div class=\"progress-bar\" style=\"width: calc(%current% / %total% * 100%);\">   </div> </div> "
 });
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));

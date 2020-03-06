@@ -41,13 +41,15 @@ D'où vient l'open data ? Quels en sont les grands principes ? Quel est le cad
 
 Le data pipeline est une méthodologie générique de réutilisation des données développée au sein du réseau international [School of Data](https://schoolofdata.org/). En sept étapes, cette méthodologie vous guidera à travers les embûches que vous pourrez rencontrer sur le chemin de la réutilisation des données. Au terme de cet atelier pratique s'adressant à tous les profils, vous aurez découvert des outils et des bonnes pratiques pour identifier les données dont vous avez besoin, les récupérer (portail open data, scraping, API, demande CADA...), les vérifier, les nettoyer, les analyser et enfin présenter les résultats. 
 
-### 14[14h-17h30 : Formats, outils et bonnes pratiques de la visualisation de données](https://datactivist.coop/opendatadays/4/#1)près avoir découvert le chemin de la réutilisation des données, nous nous arrêterons sur l'étape de la visualisation des données. A travers de nombreux exemples, nous verrons d'abord les trois grandes qualités d'une visualisation réussie : rigueur, lisibilité, éloquence. Ensuite, nous verrons comment choisir un format de visualisation adapté au message que vous souhaitez passer et trouver le bon outil pour la réaliser. Quelques exercices vous familiariseront avec certains des meilleurs outils de visualisation. 
+### [14h-17h30 : Formats, outils et bonnes pratiques de la visualisation de données](https://datactivist.coop/opendatadays/4/#1)
+
+Après avoir découvert le chemin de la réutilisation des données, nous nous arrêterons sur l'étape de la visualisation des données. A travers de nombreux exemples, nous verrons d'abord les trois grandes qualités d'une visualisation réussie : rigueur, lisibilité, éloquence. Ensuite, nous verrons comment choisir un format de visualisation adapté au message que vous souhaitez passer et trouver le bon outil pour la réaliser. Quelques exercices vous familiariseront avec certains des meilleurs outils de visualisation. 
 
 ## Vendredi 6 mars : des données pour de l'impact
 
 🎯Objectif : structurez vos projets et venez découvrir des cas d'usage où la donnée a démultiplié l'impact de projets.
 
-### 9h30--12h30 : Les opportunités de financement dans l'écosystème de la donnée
+### [9h30--12h30 : Les opportunités de financement dans l'écosystème de la donnée](./5/Open Data Days - 6 mars 2020 - Financement.pdf)
 
 Dans cet atelier de formation, Sébastien Touchais de [Servebox](http://servebox.com) présentera un aperçu des modalités de financement aux différents stades d'un projet entrepreneurial (idée, lancement, développement, croissance, maturité) et les grandes familles d'investissement (crowdfunding, venture capital, business angel...) Afin d'accompagner les porteurs de projet réutilisant des données, un focus sera réalisé sur les financements non dilutifs pour commencer son activité et sur les moyens de tester son idée avant de se lancer en quête de financement. Cet atelier sera suivi d'une préparation et d'un entrainement aux pitchs pour les porteurs de projet qui le souhaitent. 
 
