@@ -182,4 +182,6 @@ class: inverse, center, middle
 
 Contact : [joel@datactivist.coop](mailto:joel@datactivist.coop)
 
+En savoir plus : [https://medium.com/datactivist](https://medium.com/datactivist/des-analytics-%C3%A0-limpact-pourquoi-%C3%A9valuer-une-politique-open-data-461504a34eca)
+
 
