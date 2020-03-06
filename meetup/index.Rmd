@@ -1,0 +1,185 @@
+---
+title: "Des analytics à l’impact"
+subtitle: "Pourquoi et comment évaluer une politique open data ?"
+author: "Joël Gombin, Datactivist"
+date: "6 mars 2020"
+output:
+  SlidesDatactivist::moon_reader:
+    css: [default, datactivist, datactivist-fonts]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      beforeInit: ["macros.js", "matomo.js", "https://platform.twitter.com/widgets.js"]
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+params:
+  event: Meetup open data
+  slug: opendatadays
+  description: Pourquoi et comment évaluer une politique open data ?
+  title: Des analytics à l'impact
+  image: https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/logo.png
+  image_alt: le logo de Datactivist
+---
+
+```{r, echo=FALSE}
+library(metathis)
+meta() %>% 
+  meta_description(params$event) %>% 
+  meta_name("github-repo" = paste0("datactivist/", params$slug)) %>% 
+  meta_viewport() %>% 
+  meta_social(
+    title = params$title,
+    url = paste0("https://datactivist.coop/", params$slug, "/meetup/"),
+    image = params$image,
+    image_alt = params$image_alt,
+    og_type = "website",
+    og_author = "Datactivist",
+    og_locale = "fr_FR",
+    og_site_name = "Datactivist",
+    twitter_card_type = "summary",
+    twitter_creator = "@datactivi_st")
+
+```
+
+layout: true
+
+<style>
+.remark-slide-number {
+  position: inherit;
+}
+
+.remark-slide-number .progress-bar-container {
+  position: absolute;
+  bottom: 0;
+  height: 4px;
+  display: block;
+  left: 0;
+  right: 0;
+}
+
+.remark-slide-number .progress-bar {
+  height: 100%;
+  background-color: #e95459;
+}
+
+</style>
+
+
+`r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><a href='https://datactivist.coop/'><img src='https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/fond_noir_monochrome.png' width='100px'></a></div></center></span></div>")` 
+
+
+---
+
+class: center, middle
+
+Ces slides en ligne : `r paste0("http://datactivist.coop/", params$slug, "/meetup/")`
+
+Sources : `r paste0("https://github.com/datactivist/", params$slug)`
+
+
+Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+<BR>
+<BR>
+
+![](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)
+
+
+---
+## Qui sommes nous ?
+
+
+.center[[![:largeur 80%](https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/logo.png)](https://datactivist.coop)]
+
+### We .red[open data], we make them .red[useful]
+
+---
+## Qui sommes nous ?
+
+
+![](https://www.dropbox.com/s/kicm8kmqal303yc/equipe.jpg?dl=1)
+
+---
+## Qui sommes nous ?
+
+- Datactivist est un .red[**pure player de l’open data**] créé en 2016, par Samuel Goëta et Joël Gombin.
+
+- Se positionnant sur .red[**toutes les étapes du travail d’ouverture des données**], Datactivist travaille tant avec les producteurs de données qu’avec les réutilisateurs et participe à l’appropriation des données par chacun.
+
+- Nous appliquons nos propres .red[**valeurs**] : nous sommes une coopérative ; nos supports de formation et nos contenus sont librement réutilisables, publiés en licence Creative Commons.
+
+- Une approche issue de la recherche : voir notamment **https://datactivist.coop/these**. 
+
+- Nous animons la communauté [#TeamOpenData](https://teamopendata.org).
+
+---
+class: inverse, center, middle
+
+# Quelles métriques pour un projet open data ?
+
+---
+
+![](https://miro.medium.com/max/929/1*XWyA3gMwJHbukAhv5xUr0A.png)
+
+---
+
+![](https://miro.medium.com/max/1538/1*PMzeq5bMq-n2PDHQCsnU4g.png)
+
+---
+## C'est compliqué...
+
+
+La mesure de l'impact réel peut ainsi s'avérer :
+
+1. complexe : choix de l’indicateur, mesure chronophage
+2. hasardeuse : métrique incomplète, causalité donnée > usage à démontrer
+3. impossible : réutilisation inconnue
+
+---
+## ... mais c'est un bon coup
+
+.red[**S'intéresser à l'impact de l'open data, c'est s'intéresser à la demande et à l'usage.**]
+
+---
+## Deux leviers à actionner
+
+.pull-left[
+**Faire de l'open data à la demande**
+
+Une évaluation plus qualitative :
+
+- Quelles sont les principales utilisations du portail ?
+- Quelles données-utilisent-elles, et ces données sont-elles satisfaisantes ou suffisantes ?
+- Comment générer de nouvelles utilisations suite à ces enseignements ?
+
+=> une démarche orientée satisfaction utilisateur
+]
+
+.pull-right[
+**Profiter des opportunités offertes par l'open data**
+
+- économiser sur ce que d'autres font, potentiellement mieux
+- consommer ses propres données et rationaliser son fonctionnement
+- libérer du temps aux agents
+
+=> une démarche orientée cœur de métier
+]
+
+---
+class: inverse, center, middle
+
+# Et chez vous, comment on évalue l'impact de l'open data ?
+
+---
+class: inverse, center, middle
+
+# Merci !
+
+Contact : [joel@datactivist.coop](mailto:joel@datactivist.coop)
+
+
