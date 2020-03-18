@@ -64,7 +64,7 @@ Cette rencontre animée par Charles Nepote (ex FING, Open Food Facts) prendra la
 Les Open Data Days se termineront par le lancement du meetup Open Data Aix-Marseille, un événement régulier de rencontre entre producteurs et réutilisateurs de l'open data. L'évènement a débuté par 3 interventions : 
 - ["Des analytics à l’impact : pourquoi et comment évaluer une politique open data ?" par Joël Gombin, co-fondateur de Datactivist](https://datactivist.coop/opendatadays/meetup/#1)
 - ["Open data : des promesses demesurées de croissance ?" par Samuel Goëta, co-fondateur de Datactivist]
-- ["Données numériques : en tirer tout le potentiel pour l’économie locale" par Charles Nepote](https://docs.google.com/presentation/d/1m6484THI50c6uLe5BIV1L4XuuXwed0wSgbC-o8ixu0Y/edit#slide=id.g6e56608e6e_0_12)
+- "Données numériques : en tirer tout le potentiel pour l’économie locale" par Charles Nepote
 
 Le meetup continuera par une présentation des 7 projets réutilisant des données ouvertes identifiés dans le cadre du cycle d'ateliers Dat'accélère : 
 
