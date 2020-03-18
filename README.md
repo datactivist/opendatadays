@@ -76,8 +76,6 @@ Le meetup continuera par une présentation des 7 projets réutilisant des donné
 -   **3D Imago Urbis** : encourager à la numérisation participative en 3D du patrimoine pour favoriser sa préservation et sa découverte par le plus grand nombre ;
 -   **Articarbone :** relocaliser l'économie et réduire l'empreinte écologique des territoires en finançant des projets promouvant l'artisanat. Le projet doit permettre de prouver l'impact positif de l'artisanat pour la transition écologique des territoires.
 
-<a class="twitter-moment" data-lang="fr" data-dnt="true" href="https://twitter.com/i/moments/1240296117625147400?ref_src=twsrc%5Etfw">Meetup Open Data Aix Marseille : présentation des projets</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 # Inscrivez vous ! 
 
 Évènement gratuit et ouvert à tous, sur inscription. 
