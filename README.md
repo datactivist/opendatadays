@@ -61,7 +61,10 @@ Cette rencontre animée par Charles Nepote (ex FING, Open Food Facts) prendra la
 
 ### 18h30-21h30 : lancement du meetup open data Aix-Marseille
 
-Les Open Data Days se termineront par le lancement du meetup Open Data Aix-Marseille, un événement régulier de rencontre entre producteurs et réutilisateurs de l'open data. L'évènement débutera par une intervention de Joël Gombin, co-fondateur de Datactivist intitulée "*Où en est l'open data ? Etat des lieux et découverte de 10 projets à fort impact*" qui présentera la nouvelle donne de la loi pour une République Numérique, des données emblématiques et 10 exemples de choses incroyables qui n'existeraient pas sans l'open data. 
+Les Open Data Days se termineront par le lancement du meetup Open Data Aix-Marseille, un événement régulier de rencontre entre producteurs et réutilisateurs de l'open data. L'évènement a débuté par 3 interventions : 
+- ["Des analytics à l’impact : pourquoi et comment évaluer une politique open data ?" par Joël Gombin, co-fondateur de Datactivist](https://datactivist.coop/opendatadays/meetup/#1)
+- ["Open data : des promesses demesurées de croissance ?" par Samuel Goëta, co-fondateur de Datactivist]
+- ["Données numériques : en tirer tout le potentiel pour l’économie locale" par Charles Nepote](https://docs.google.com/presentation/d/1m6484THI50c6uLe5BIV1L4XuuXwed0wSgbC-o8ixu0Y/edit#slide=id.g6e56608e6e_0_12)
 
 Le meetup continuera par une présentation des 7 projets réutilisant des données ouvertes identifiés dans le cadre du cycle d'ateliers Dat'accélère : 
 
@@ -80,7 +83,3 @@ Enfin, pour finir, les Open Data Days se termineront par un cocktail dinatoire.�
 Évènement gratuit et ouvert à tous, sur inscription. 
 
 Lieu : World Trade Center, 2 Rue Henri Barbusse, 13001 Marseille
-
-Pour vous inscrire, merci de remplir le formulaire à la suite en indiquant les séquences auxquelles vous souhaitez participer :
-
-<iframe class="airtable-embed" src="https://airtable.com/embed/shrrM4CQkIkU8VARA?backgroundColor=gray" frameborder="0" onmousewheel="" width="100%" height="900" style="background: transparent; border: 1px solid #ccc;"></iframe>
