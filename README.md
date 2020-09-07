@@ -29,7 +29,7 @@ Des ateliers de formation technique ainsi que des ateliers thématiques vous ser
 
 Au fait, qu'est-ce qu'une donnée ? Qu'est ce qu'une donnée quantitative / qualitative / structurée / non-structurée / capturée / crowdsourcée ? Qu'entend-on par big, open ou linked data ? En quoi la data science diffère de la statistique ? Quelle est la différence entre machine et deep learning ? Dans cet atelier, nous vous introduirons toutes ces notions et vous aiderons à mieux les approprier. 
 
-### [14h-17h30, atelier de formation : Les essentiels de l'ouverture des données](datactivist.coop/opendatadays//2/)
+### [14h-17h30, atelier de formation : Les essentiels de l'ouverture des données](datactivist.coop/opendatadays/2/)
 
 D'où vient l'open data ? Quels en sont les grands principes ? Quel est le cadre juridique de l'open data en France ? Quelles sont les bases de données emblématiques disponibles sur data.gouv.fr ? Quelles sont les principales difficultés rencontrées par les réutilisateurs ? Comment ouvrir des données dans une administration publique ? Dans cet atelier, nous vous aiderons à mieux comprendre l'ouverture des données publiques et à ouvrir de nouvelles données.
 
