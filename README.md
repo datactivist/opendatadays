@@ -49,7 +49,7 @@ Après avoir découvert le chemin de la réutilisation des données, nous nous a
 
 🎯Objectif : structurez vos projets et venez découvrir des cas d'usage où la donnée a démultiplié l'impact de projets.
 
-### [9h30--12h30 : Les opportunités de financement dans l'écosystème de la donnée](https://datactivist.coop/5/Open Data Days - 6 mars 2020 - Financement.pdf)
+### [9h30--12h30 : Les opportunités de financement dans l'écosystème de la donnée](https://datactivist.coop/5/financement.pdf)
 
 Dans cet atelier de formation, Sébastien Touchais de [Servebox](http://servebox.com) présentera un aperçu des modalités de financement aux différents stades d'un projet entrepreneurial (idée, lancement, développement, croissance, maturité) et les grandes familles d'investissement (crowdfunding, venture capital, business angel...) Afin d'accompagner les porteurs de projet réutilisant des données, un focus sera réalisé sur les financements non dilutifs pour commencer son activité et sur les moyens de tester son idée avant de se lancer en quête de financement. Cet atelier sera suivi d'une préparation et d'un entrainement aux pitchs pour les porteurs de projet qui le souhaitent. 
 
